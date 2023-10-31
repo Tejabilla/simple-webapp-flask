@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-webapp-flask
+  labels:
+      app: poc
+spec:
+  containers:
+    - name: poc1
+      image: tejabilla/simple-webapp-flask:latest
